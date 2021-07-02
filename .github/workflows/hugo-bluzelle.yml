@@ -1,4 +1,4 @@
-# Generate a hugo static website and upload it to bluezelle
+# Generate a hugo static website and upload it to bluzelle
 name: Hugo-Bluzelle
 
 on: [push]
@@ -21,7 +21,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        repository: 'bluezelle/curium'
+        repository: 'bluzelle/curium'
         fetch-depth: 0
 
     - name: Node
